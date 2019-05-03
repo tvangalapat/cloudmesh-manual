@@ -1,5 +1,7 @@
 ## AWS EC2 VM Management 
 
+### Benchmark Mac
+
 Benchmark results for AWS EC2 File vm management under cloudmesh-storage.
 
  PING ms : 19
@@ -45,6 +47,9 @@ Benchmark results for AWS EC2 File vm management under cloudmesh-storage.
 | cms vm delete           | 2.31 | ('hyspocMacBookPro.local',) | Darwin | 10.14.2     |             |
 +-------------------------+------+-----------------------------+--------+-------------+-------------+
 ```
+
+
+### Benchmark Ubuntu
 
 Benchmark results using cloudmesh-cloud/tests/test_cms_aws.py
 
