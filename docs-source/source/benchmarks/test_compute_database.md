@@ -2,6 +2,7 @@
 ## AWS EC2 Compute Database
 
 Benchmark results using cloudmesh-cloud/tests/test_compute_database.py
+working, modified version found: https://github.com/cloudmesh-community/sp19-516-127/blob/master/test_compute_database_aws_eric.py 
 
  PING ms : 34 
  DOWNLOAD Mbps : 69.27 
