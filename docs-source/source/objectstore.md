@@ -47,21 +47,20 @@ Follow the below steps:
 Here is a sample.
 
 ```bash
-cloudmesh:
-  ...
-  objstorage:
-    awss3:
+  storage:
+    objstore:
       cm:
-        heading: aws
-        host: amazon.aws.com
-        label: aws
-        kind: awss3
+        heading: AWS
+        host: aws.com
+        label: AWS
+        kind: awsobjectstore
         version: 1.0
       default:
         directory: AWS
       credentials:
-        access_key_id: *********
-        secret_access_key: *******
+        region: "xxx"
+        access_key_id: "xxx"
+        secret_access_key: "xxxx"
 ```
 
 The Cloudmesh command line library offers several functions as part of objstorage command: 
